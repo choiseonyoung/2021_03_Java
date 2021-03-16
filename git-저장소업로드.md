@@ -42,3 +42,18 @@
 * git push https://github.com/choiseonyoung/Biz_403_2021_Java.git master
 
 
+https://github.com/choiseonyoung/Biz_403_2021_03_Java.git
+
+
+## 원격저장소와 연결된 프로젝트에 새로운 코드 추가하기
+* git add .
+* git commit -m "Hello_02 추가"
+* git push https://github.com/choiseonyoung/Biz_403_2021_03_Java.git master
+
+## 원격저장소 주소를 단축하여 입력하기
+1. 원격저장소 주소를 별명으로 설정하기
+* git remote add origin https://github.com/choiseonyoung/Biz_403_2021_03_Java.git
+
+* git push -u origin master
+
+* git push
