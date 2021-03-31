@@ -9,7 +9,7 @@ public class StudentVO {
 	private String addr;
 	private String tel;
 	
-	// 컨트롤+알트+s
+	// 쉬프트+알트+s
 	public String getAddr() {
 		return addr;
 	}
