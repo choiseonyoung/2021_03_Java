@@ -16,7 +16,7 @@ public class LocalDate_01 {
 		 * java 1.8부터 새로운 날짜 시간과 관련된 코딩을 할 때 사용하는 클래스가 만들어졌다
 		 */
 		
-		// 실무에서 아직 거의 안 쓰임
+		// 실무에서 아직 거의 안 쓰임 
 		
 		LocalDateTime local = LocalDateTime.now();
 		
