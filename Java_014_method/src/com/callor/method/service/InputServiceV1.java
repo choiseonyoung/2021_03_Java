@@ -75,15 +75,4 @@ public class InputServiceV1 {
 
 	}
 
-	public void inputScore() {
-
-		Integer score = inputValue("국어", 0, 100);
-
-		if (score == null) {
-			System.out.println("종료");
-		} else {
-			System.out.printf("점수 : %d", score);
-		}
-	}
-
 }
