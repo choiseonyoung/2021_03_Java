@@ -33,6 +33,13 @@ public class FileWriter_01 {
 		// 		새로운 파일을 생성하라
 		// 		만약 이미 있으면 지우고 다시 만들어라
 		try {
+			// FileWriter 클래스의 객체만으로도 파일에 기록할 수 있지만
+			// 		상당히 복잡하고 불편한 코드를 만들어야 한다
+			// (그래서) PrintWriter 클래스의 객체를
+			// 		FileWriter 클래스의 객체와 연결하여
+			// 		System.out의 print 관련 method와 똑같은 방법으로 파일에 Text들을 저장한다.
+			
+			// OS <-> FileWriter <-> PrintWriter가 서로 연결되어 데이터를 파일에 기록한다
 			fileWriter = new FileWriter(fileName);
 			out = new PrintWriter(fileWriter);
 			out.print("대한민국만세");
