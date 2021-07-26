@@ -16,4 +16,5 @@ public class MainEx_02 {
 		System.out.println("국어 : " + scoreVO[index].getKor());
 		System.out.println("영어 : " + scoreVO[index].getEng());
 	}
+	
 }
